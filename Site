@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EBC | Quartel General</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080d17;color:#f4f8ff;font-family:Arial,sans-serif}
+header{background:#0c1525;padding:20px;border-bottom:1px solid #25466b}
+header h2{margin:0;color:#65c4ff}
+nav{margin-top:15px;display:flex;gap:15px;flex-wrap:wrap}
+nav a{color:#c8d8ee;text-decoration:none;font-size:13px}
+main{max-width:900px;margin:auto;padding:20px}
+.card{background:#111e31;border:1px solid #294769;border-radius:15px;padding:25px;margin-bottom:18px}
+.blue{color:#64caff}
+h1{font-size:35px;margin:12px 0}
+p{color:#b8c9df;line-height:1.7}
+.btn{display:block;text-align:center;padding:15px;background:#42a5ff;color:#061321;font-weight:bold;text-decoration:none;border-radius:9px;margin-top:12px}
+.btn2{background:#142943;color:#dcecff;border:1px solid #3d638a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px}
+.unit{text-align:center;background:#142238;border:1px solid #294769;padding:22px 12px;border-radius:13px}
+.unit h3{color:#7dd1ff;margin:8px}
+.unit p{font-size:13px}
+footer{text-align:center;color:#8298b3;padding:25px}
+</style>
+</head>
+<body>
+<header>
+<h2>✦ EBC | QUARTEL GENERAL</h2>
+<nav>
+<a href="#inicio">INÍCIO</a>
+<a href="#divisoes">DIVISÕES</a>
+<a href="#hierarquia">HIERARQUIA</a>
+<a href="#acessos">ACESSOS</a>
+</nav>
+</header>
+<main>
+<section class="card" id="inicio">
+<p class="blue">PORTAL OFICIAL DO JOGO</p>
+<h1>Seu quartel começa aqui.</h1>
+<p>Acesse a verificação, conheça as divisões e acompanhe as informações da comunidade.</p>
+<a class="btn" href="#acessos">EXPLORAR ↓</a>
+</section>
+
+<section class="card">
+<p class="blue">🟢 BEM-VINDO AO QUARTEL</p>
+<h1>Quartel <span class="blue">Militar</span></h1>
+<p>Este é o painel central do Exército Brasileiro de Combate. Prepare-se para a missão, confira as informações e entre no jogo.</p>
+<a class="btn" href="https://www.roblox.com/">🎮 ENTRAR NO JOGO ↗</a>
+<a class="btn btn2" href="#acessos">✓ VERIFICAR CONTA ↗</a>
+</section>
+
+<section id="divisoes">
+<p class="blue">CONHEÇA A ESTRUTURA</p>
+<h1>Divisões do EBC</h1>
+<div class="grid">
+<div class="unit"><h1>🕵️</h1><h3>CIE</h3><p>Centro de Inteligência do Exército</p></div>
+<div class="unit"><h1>⚔️</h1><h3>FEE</h3><p>Forças Especiais do Exército</p></div>
+<div class="unit"><h1>💀</h1><h3>BAC</h3><p>Batalhões das Ações de Comando</p></div>
+<div class="unit"><h1>🚓</h1><h3>PE</h3><p>Polícias do Exército</p></div>
+<div class="unit"><h1>🌿</h1><h3>CIGS</h3><p>Centro de Instrução de Guerra na Selva</p></div>
+</div>
+</section>
+
+<section class="card" id="hierarquia">
+<p class="blue">ORGANIZAÇÃO</p>
+<h1>⭐ Hierarquia</h1>
+<p>Praças e oficiais — consulte os responsáveis e cargos nos canais oficiais da comunidade.</p>
+</section>
+
+<section class="card" id="acessos">
+<p class="blue">ACESSO RÁPIDO</p>
+<h1>Links oficiais</h1>
+<a class="btn" href="https://www.roblox.com/">🎮 Entrar no Roblox</a>
+<a class="btn btn2" href="#acessos">✓ Verificar minha conta</a>
+<a class="btn btn2" href="#acessos">◇ Servidor do Discord</a>
+<p>Configure os links reais do seu jogo, Discord e verificação depois.</p>
+</section>
+</main>
+<footer>EBC • Exército Brasileiro de Combate<br>Projeto de roleplay no Roblox © 2026</footer>
+</body>
+</html>
